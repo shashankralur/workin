@@ -1,0 +1,124 @@
+
+@font-face {
+    font-family: Font-Light;
+    src: url('../assets/fonts/Google_Sans/static/GoogleSans_17pt-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: Font-Regular;
+    src: url('../assets/fonts/Google_Sans/static/GoogleSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: Font-SemiBold;
+    src: url('../assets/fonts/Google_Sans/static/GoogleSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Font-Medium;
+    src: url('../assets/fonts/Google_Sans/static/GoogleSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: Font-Bold;
+    src: url('../assets/fonts/Google_Sans/static/GoogleSans-Bold.ttf');
+}
+
+
+.fl{
+    font-family: Font-Light;
+}
+
+.fr{
+    font-family: Font-Regular;
+}
+
+.fsb{
+    font-family: Font-SemiBold;
+}
+
+.fm{
+    font-family: Font-Medium;
+}
+
+.fb{
+    font-family: Font-Bold;
+}
+
+
+
+.t-gray{
+    color: var(--grey-txt);
+}
+
+.t-primary{
+    color: var(--primary);
+}
+
+.t-12{
+    font-size: 12px;
+}
+
+.t-14{
+    font-size: 14px;
+}
+
+.t-15{
+    font-size: 15px;
+}
+
+.t-16{
+    font-size: 16px;
+}
+
+.t-18{
+    font-size: 18px;
+}
+
+
+.t-20{
+    font-size: 20px;
+}
+
+.t-32{
+    font-size: 32px;
+}
+
+.t-28{
+    font-size: 28px;
+}
+
+.t-48{
+    font-size: 48px;
+}
+
+.t-56{
+    font-size: 56px;
+}
+
+.t-64{
+    font-size: 64px;
+}
+
+.t-title{
+    font-size: 45px;
+}
+
+.t-10em{
+    font-size: 10em;
+}
+
+/* Smartwatches and small phones */
+@media (max-width: 480px) {
+  .t-10em {
+    font-size: 5em;
+  }
+}
+
+/* Landscape phones and small tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+  .t-10em {
+    font-size: 7em;
+  }
+}
