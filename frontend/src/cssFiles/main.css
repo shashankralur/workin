@@ -1,0 +1,46 @@
+body{
+    font-family: Font-Regular; 
+    color: var(--primary-txt) !important;
+    background: #ffffff;
+}
+
+
+:root{
+    --primary:rgb(255, 82, 0);
+    --primary-txt:black;
+    --txt-white: white;
+    --grey-txt: rgb(101, 101, 101);
+    --grey-txt-2: #d3d3d3;
+    --light: #f3f3f3;
+}
+
+.chat-box{
+    background-color: transparent;
+    border: 1px solid var(--grey-txt-2);
+    border-radius: 14px;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+.chat-box:focus{
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.output-panel{
+    background-color: var(--light);
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.prm-btn{
+    background-color: var(--primary);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 14px;
+    color: var(--txt-white);
+}
+
+input:focus{
+    outline: none;
+}
